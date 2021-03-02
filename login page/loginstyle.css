@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&family=Roboto+Mono:ital,wght@1,700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: 'Raleway';
+}
+body{
+	background-color: #031321;
+	min-height: 100vh;
+}
+.wrapper{
+	position:absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	padding: 0 20px;
+}
+.contact-form{
+	max-width: 550px;
+	margin: 0 auto;
+	background:rgba(0,0,0,0.8);
+	padding: 30px;
+	border-radius: 5px;
+	display: flex;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.input-fields{
+	display: flex;
+	flex-direction: column;
+	margin-right: 4%;
+}
+.input-fields{
+	width: 48%;
+}
+.input-fields .input{
+	margin: 10px 0;
+	background: transparent;
+	border: 0;
+	border-bottom: 2px solid #c5ecfd;
+	padding: 10px;
+	color: #2196f3;
+	width: 100%;
+}
+.btn{
+	margin-top:50px;
+	margin-left:50px ; 
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color:#f50d51;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 24px;
+	overflow: hidden;
+	transition: 0.2s;
+}
+.btn:hover{
+	color: #031321;
+	background: #f50d51;
+	box-shadow: 0 0 10px #f50d51, 0 0 40px #f50d51, 0 0 80px #f50d51;
+	transition-delay: .1s;
+}
+::-webkit-input-placeholder{
+	color:#f50d51;
+}
